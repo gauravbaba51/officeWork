@@ -1,0 +1,18 @@
+<p>
+  city-list works!
+</p>
+<div class="container">
+<form>
+  
+  <div class="form-group col-md-4">
+    <label for="inputState">Enter city name</label>
+    <select id="inputState" class="form-control">
+      <option ngFor="array1 of array1s"selected>Choose...</option>
+      <option>{{array1[i]}}</option>
+      <option>{{array1[1]}}</option>
+      <option>{{array1[2]}}</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
